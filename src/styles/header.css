@@ -1,0 +1,29 @@
+
+
+body{
+    color: #fff;
+}
+
+.navbar{
+    font-size: 2rem;
+    background-color:  rgb(237,86,21) !important;
+}
+
+.navbar-brand{
+    font-size: 3rem;
+}
+
+
+.cart p{
+    position: relative;
+    border-radius: 50% !important;
+    width: 1.5rem;
+    height: 1.5rem;
+    background-color: #fff;
+    transform: translate(70% , -70%);
+    font: 900 1.3rem "Roboto";
+    display: grid;
+    place-items: center;
+    
+}
+

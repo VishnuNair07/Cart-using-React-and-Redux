@@ -1,0 +1,117 @@
+
+
+.cart1{
+    height: 100vh;
+    display: grid;
+    grid-template-columns: 4fr 1fr;
+}
+main::-webkit-scrollbar{
+    display: none;
+}
+
+.cart1 main {
+    padding: 2rem;
+    overflow-y: auto;
+}
+
+.cart1 h1{
+    color: #fff;
+    font: 100 2rem "Roboto";
+}
+
+aside{
+    border-radius: 10rem 0 0 10rem;
+    background-color: rgb(29,29,29);
+    color: #fff;
+    height: 100%;
+    width: 100%;
+    box-shadow: -1rem 0 1rem rgba(0,0,0,0.182);
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+h2{
+    margin: 1.6rem;
+    font: 100 2.8rem "Roboto";
+    letter-spacing: 2px;
+}
+
+.cartItem{
+    background-color: #fff !important ;
+    width: 100%;
+    border-radius: 1rem;
+    margin: 3.2rem 0;
+    padding: 1.6rem;
+    display: grid;
+    grid-template-columns: 1fr 3fr 1fr 1fr;
+    align-items: center;
+}
+
+img{
+    width: 100%;
+    height: 20rem;
+    object-fit: contain;
+}
+
+.buttn{
+    display: flex;
+    align-items: center;
+    height: 100%;
+}
+
+button{
+    width: 3rem;
+    height: 3rem;
+    border: none;
+    background-color: rgb(29,29,29);
+    color: #fff;
+    border-radius: .5rem;
+    cursor: pointer;
+}
+button:hover{
+    background-color:rgb(18,18,18);
+}
+
+p{
+    width: 3rem;
+    height: 3rem;
+    display: grid;
+    place-items: center;
+    color: #000;
+}
+
+.icon{
+    cursor: pointer;
+     font-size: 2.5rem;
+    display: inline-block;
+    color: #000;
+    margin: auto;
+}
+.icon:hover{
+    color: rgb(237,86,21);
+}
+
+
+@media (width <= 820px){
+    html{
+        font-size: 55%;
+    }
+    .cart1{
+        grid-template-columns:  1fr;
+    }
+
+    aside{
+        padding: 3.2rem;
+        border-radius: 0;
+
+    }
+    
+}
+
+@media (width <= 400px){
+    html{
+        font-size: 45%;
+    }
+    
+}
